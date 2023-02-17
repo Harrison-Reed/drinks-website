@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <title>Cocktail Composition</title>
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <h1>
+                Cocktail<br>Composition
+            </h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="inspect.html">Inspect</a></li>
+                <li><a href="instruct.html">Instruct</a></li>
+                <li><a href="elevate.html">Elevate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="inspect-wrapper">
+        <aside><img class="bg-image2" src="smoky-drink.jpg" alt="Photo by Pylyp Sukhenko on Unsplash.">
+        </aside>
+        <div class="center-inspect">
+            <div class="secondary-title-inspect">
+                <h2>Cocktails By Their Core</h2>
+            </div>
+
+            <div class="tertiary-title-inspect">
+                <h3>There are six cocktails or root recipes that can act as templates<br> for all other cocktails, real and possible.</h3>
+            </div>
+            <div class="form-styling">
+                <form action="instruct.html" method="post">
+                    <fieldset>
+                        <div class="form-title">
+                            <h4>Let's explore them starting with a couple questions:</h4>
+                        </div>
+                        <div class="dropdown-menu">
+                            <label for="favorite-spirit">Favorite Spirit?</label>
+                            <select name="user-spirit-choice" id="favorite-spirit" class="select">
+                                <option disabled selected>Choose Spirit</option>
+                                <option value="whiskey">Whiskey</option>
+                                <option value="gin">Gin</option>
+                                <option value="rum">Rum</option>
+                                <option value="brandy">Brandy</option>
+                                <option value="vodka">Vodka</option>
+                            </select>
+                        </div>
+                        <div class="egg-question">
+                            Do you enjoy eggs in your cocktails?
+                        </div>
+                        <div class="egg-question">
+                            <input type="checkbox" id="egg" name="egg" class="egg-checkbox">
+                            <label for="egg">Check box if yes</label>
+                        </div>
+                    </fieldset>
+                    <a href="instruct.html">
+                        <button class="cheers-styled" type="button">
+                            Cheers!
+                        </button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </main>

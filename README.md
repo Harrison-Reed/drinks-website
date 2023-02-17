@@ -1,2 +1,2 @@
 # drinks-website
-Website about drinks and the daiquri.
+Website about the foundations of making cocktails.
